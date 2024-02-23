@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: rgb(218, 218, 218);
+    width: 100;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color:darkgrey
+    color:rgb(117, 12, 244);
+    font-size: 30px;
+    font-family: "Protest Riot", sans-serif;
+}
+header ul li{
+margin: 10px;
+
+}
+img{
+    width: 350px;
+}
+
+h1{
+font-size: 24px;
+color: #2B2E83;
+.montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <peso>;
+    font-style: normal;
+   }
+}
+h2{
+    font-size: 22px;
+    color:#2B2E83;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+h3{
+    font-size: 22px;
+    color: #0E71B8;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+h4{
+    font-size: 22px;
+    color: #0E71B8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-size: 20px;
+    color: rgb(6, 6, 6);
+    .montserrat-<uniquifier> {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <peso>;
+        font-style: normal;
+       }
+   
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+.ccontacto{
+    background-color: #dadada;
+}
+
+.caja1{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center
+    align-items: center;
+}
+.caja2{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja1 img {
+   border-width: 120%; 
+}
+.caja2 img {
+    border-width: 120%;
+}
+.caja1 p{
+    font-size: 22px;
+}
+.caja2 p{
+    font-size: 22px;
+}
